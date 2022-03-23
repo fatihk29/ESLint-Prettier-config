@@ -18,6 +18,12 @@
   "env": {
     "browser": true
   },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "requireConfigFile": false,
+    "allowImportExportEverywhere": true
+  },
   "rules": {
     "prettier/prettier": 0,
     "no-use-before-define": "off",
@@ -51,11 +57,5 @@
     "react-hooks/exhaustive-deps": "error",
     "react-hooks/rules-of-hooks": "error",
     "no-console": 2
-  },
-  "parser": "@babel/eslint-parser",
-  "parserOptions": {
-    "sourceType": "module",
-    "requireConfigFile": false,
-    "allowImportExportEverywhere": true
   }
 }

@@ -52,13 +52,8 @@ npm init -y //
     "react-hooks/exhaustive-deps": "error",
     "react-hooks/rules-of-hooks": "error",
     "no-console": 2
-  },
-  "parser": "@babel/eslint-parser",
-  "parserOptions": {
-    "sourceType": "module",
-    "requireConfigFile": false,
-    "allowImportExportEverywhere": true
   }
+
 ##  More Rules 1
       "rules": {
 		"no-debugger": 0,
