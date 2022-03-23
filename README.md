@@ -18,7 +18,7 @@ npm init -y //
 #### prettier
 
 ##  More Rules 1
-"rules": {
+   "rules": {
 		"no-debugger": 0,
 		"no-alert": 0,
 		"no-await-in-loop": 0,

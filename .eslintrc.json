@@ -57,5 +57,6 @@
 		"sourceType": "module",
 		"requireConfigFile": false,
 		"allowImportExportEverywhere": true
-	}
+	},
+  
 }
