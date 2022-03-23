@@ -19,7 +19,7 @@
 		"browser": true
 	},
 	"rules": {
-		"prettier/prettier": ["warn"],
+		"prettier/prettier": 0,
 		"no-use-before-define": "off",
 		"no-case-declarations": "off",
 		"no-underscore-dangle": "off",
@@ -36,7 +36,10 @@
 		"react/no-unescaped-entities": [
 			"error",
 			{
-				"forbid": [">", "}"]
+				"forbid": [
+					">",
+					"}"
+				]
 			}
 		],
 		"jsx-a11y/label-has-associated-control": [
@@ -49,9 +52,10 @@
 		"react-hooks/rules-of-hooks": "error",
 		"no-console": 2
 	},
-	"parser": "babel-eslint",
+	"parser": "@babel/eslint-parser",
 	"parserOptions": {
 		"sourceType": "module",
+		"requireConfigFile": false,
 		"allowImportExportEverywhere": true
 	}
 }
