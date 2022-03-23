@@ -1,4 +1,18 @@
-# VSCode ESLint, Prettier & Airbnb Style Guide Setup
-https://www.youtube.com/watch?v=SydnKbGc7W8&t=942s
+# VSCode ESLint, Prettier & Airbnb Style
 
 npm init -y //
+
+### @babel/core
+### @babel/eslint-parser
+### @babel/preset-react
+### eslint
+### eslint-config-airbnb
+### eslint-config-prettier
+### eslint-plugin-eslint-comments
+### eslint-plugin-import
+### eslint-plugin-jsx-a11y
+### eslint-plugin-prettier
+### eslint-plugin-react
+### eslint-plugin-react-hooks
+### prettier
+
