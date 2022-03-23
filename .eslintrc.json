@@ -1,62 +1,61 @@
 {
-	"extends": [
-		"airbnb",
-		"eslint:recommended",
-		"plugin:eslint-comments/recommended",
-		"plugin:import/errors",
-		"plugin:import/warnings",
-		"plugin:prettier/recommended",
-		"prettier"
-	],
-	"plugins": [
-		"import",
-		"prettier",
-		"react",
-		"jsx-a11y",
-		"react-hooks"
-	],
-	"env": {
-		"browser": true
-	},
-	"rules": {
-		"prettier/prettier": 0,
-		"no-use-before-define": "off",
-		"no-case-declarations": "off",
-		"no-underscore-dangle": "off",
-		"react/jsx-filename-extension": "off",
-		"no-param-reassign": "off",
-		"no-empty": "warn",
-		"import/no-extraneous-dependencies": [
-			"error",
-			{
-				"devDependencies": true
-			}
-		],
-		"react/jsx-props-no-spreading": "warn",
-		"react/no-unescaped-entities": [
-			"error",
-			{
-				"forbid": [
-					">",
-					"}"
-				]
-			}
-		],
-		"jsx-a11y/label-has-associated-control": [
-			"warn",
-			{
-				"depth": 3
-			}
-		],
-		"react-hooks/exhaustive-deps": "error",
-		"react-hooks/rules-of-hooks": "error",
-		"no-console": 2
-	},
-	"parser": "@babel/eslint-parser",
-	"parserOptions": {
-		"sourceType": "module",
-		"requireConfigFile": false,
-		"allowImportExportEverywhere": true
-	},
-  
+  "extends": [
+    "airbnb",
+    "eslint:recommended",
+    "plugin:eslint-comments/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:prettier/recommended",
+    "prettier"
+  ],
+  "plugins": [
+    "import",
+    "prettier",
+    "react",
+    "jsx-a11y",
+    "react-hooks"
+  ],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "prettier/prettier": 0,
+    "no-use-before-define": "off",
+    "no-case-declarations": "off",
+    "no-underscore-dangle": "off",
+    "react/jsx-filename-extension": "off",
+    "no-param-reassign": "off",
+    "no-empty": "warn",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "react/jsx-props-no-spreading": "warn",
+    "react/no-unescaped-entities": [
+      "error",
+      {
+        "forbid": [
+          ">",
+          "}"
+        ]
+      }
+    ],
+    "jsx-a11y/label-has-associated-control": [
+      "warn",
+      {
+        "depth": 3
+      }
+    ],
+    "react-hooks/exhaustive-deps": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "no-console": 2
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "requireConfigFile": false,
+    "allowImportExportEverywhere": true
+  }
 }
