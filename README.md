@@ -17,6 +17,48 @@ npm init -y //
 #### eslint-plugin-react-hooks
 #### prettier
 
+
+## Rules 0
+     "rules": {
+    "prettier/prettier": 0,
+    "no-use-before-define": "off",
+    "no-case-declarations": "off",
+    "no-underscore-dangle": "off",
+    "react/jsx-filename-extension": "off",
+    "no-param-reassign": "off",
+    "no-empty": "warn",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "react/jsx-props-no-spreading": "warn",
+    "react/no-unescaped-entities": [
+      "error",
+      {
+        "forbid": [
+          ">",
+          "}"
+        ]
+      }
+    ],
+    "jsx-a11y/label-has-associated-control": [
+      "warn",
+      {
+        "depth": 3
+      }
+    ],
+    "react-hooks/exhaustive-deps": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "no-console": 2
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "requireConfigFile": false,
+    "allowImportExportEverywhere": true
+  }
 ##  More Rules 1
       "rules": {
 		"no-debugger": 0,
@@ -184,3 +226,4 @@ npm init -y //
       }
     ]
   }
+
