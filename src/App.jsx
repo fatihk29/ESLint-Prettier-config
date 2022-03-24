@@ -3,12 +3,16 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+	var z = 1;
 	console.log();
 
 	const a = 2
 	a = 3;
+	
 
 	let t = 4;
+
+	t = ++t;
 
 	return (
 		<div className='App'>
