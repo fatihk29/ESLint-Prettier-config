@@ -5,7 +5,7 @@ import './App.css';
 function App() {
 	console.log();
 
-	const a = 2;
+	const a = 2
 	a = 3;
 
 	let t = 4;
