@@ -12,10 +12,12 @@ function App() {
 
 	let t = 4;
 
+	// eslint-disable-next-line no-plusplus
 	t = ++t;
 
 	const lukeSkywalker = 'Luke Skywalker';
-
+/* eslint no-undef: off */
+/* eslint-env browser */
 	// bad
 	const obj = {
   	lukeSkywalker: lukeSkywalker,
