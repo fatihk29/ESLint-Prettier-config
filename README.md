@@ -54,6 +54,7 @@ npm init -y //
     "no-console": 2
   }
 
+
 ##  More Rules 1
       "rules": {
 		"no-debugger": 0,

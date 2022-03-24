@@ -6,6 +6,9 @@ function App() {
 	console.log();
 
 	const a = 2;
+	a = 3;
+
+	let t = 4;
 
 	return (
 		<div className='App'>
