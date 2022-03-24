@@ -33,6 +33,7 @@
     "no-param-reassign": "off",
     "no-empty": "warn",
     "no-var": 1,
+    "object-shorthand": 1,
     "import/no-extraneous-dependencies": [
       "error",
       {
