@@ -26,44 +26,32 @@
   },
   "rules": {
     "prettier/prettier": 1,
-    "no-use-before-define": "off",
-    "no-case-declarations": "off",
-    "no-underscore-dangle": "off",
-    "react/jsx-filename-extension": "off",
-    "no-param-reassign": "off",
-    "no-empty": "warn",
-    "no-var": 1,
-    "object-shorthand": 1,
-    "import/no-extraneous-dependencies": [
+    "no-var": 2,
+    "no-new-object": 2,
+    "object-shorthand": 2,
+    "quote-props": 2,
+    "prefer-object-spread": 2,
+    "no-array-constructor": 2,
+    "prefer-destructuring": [
       "error",
       {
-        "devDependencies": true
+        "object": true,
+        "array": false
       }
     ],
-    "react/jsx-props-no-spreading": "warn",
-    "react/no-unescaped-entities": [
-      "error",
-      {
-        "forbid": [
-          ">",
-          "}"
-        ]
-      }
-    ],
-    "jsx-a11y/label-has-associated-control": [
-      "warn",
-      {
-        "depth": 3
-      }
-    ],
-    "react-hooks/exhaustive-deps": "error",
-    "react-hooks/rules-of-hooks": "error",
-    "no-console": 2,
-    "eslint-comments/no-use": [
-      1,
-      {
-        "allow": []
-      }
-    ]
+    "quotes": 1,
+    "prefer-template": 1,
+    "no-loop-func": 2,
+    "no-new-func": 2,
+    "prefer-arrow-callback": 1,
+    "no-dupe-class-members": 2,
+    "no-duplicate-imports": 2,
+    "object-curly-newline": 1,
+    "dot-notation": 1,
+    "no-undef": 1,
+    "one-var": 1,
+    "no-plusplus": 2,
+    "eqeqeq": 2,
+    "no-nested-ternary": 1
   }
 }
