@@ -54,7 +54,7 @@ function App() {
 
 	const subtract = Function('a', 'b', 'return a - b');
 
-	console.log(subtract(2, 3));
+	console.log(subtract(2, 3))
 
 	[1, 2, 3].map(function (x) {
 		const y = x + 1;
@@ -76,6 +76,10 @@ function App() {
 
 	isNaN('1.2'); // false
 	isFinite('2e3'); // true
+
+	if(first == second) {
+		console.log('a');
+	}
 
 	return (
 		<div className='App'>

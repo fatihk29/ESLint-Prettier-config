@@ -25,7 +25,9 @@
     "allowImportExportEverywhere": true
   },
   "rules": {
-    "prettier/prettier": 1,
+    // Prettier rules
+    "prettier/prettier": 2,
+    // Airbnb JS Rules
     "no-var": 2,
     "no-new-object": 2,
     "object-shorthand": 2,
@@ -53,6 +55,15 @@
     "no-plusplus": 2,
     "eqeqeq": 2,
     "no-nested-ternary": 1,
-    "no-restricted-globals": 2
+    "no-restricted-globals": 2,
+    // Airbnb React rules
+    "react/prefer-es6-class": 1,
+    "react/jsx-filename-extension": 1,
+    "react/jsx-closing-bracket-location": 1,
+    "jsx-quotes": 1,
+    "react/jsx-tag-spacing": 1,
+    "react/jsx-curly-spacing": 1,
+    "react/no-array-index-key": 2,
+    "react/no-string-refs": 2
   }
 }
