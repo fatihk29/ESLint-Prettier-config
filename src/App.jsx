@@ -74,6 +74,9 @@ function App() {
 	num++;
 	--num;
 
+	isNaN('1.2'); // false
+	isFinite('2e3'); // true
+
 	return (
 		<div className='App'>
 			<header className='App-header'>
