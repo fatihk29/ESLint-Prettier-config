@@ -28,12 +28,16 @@
     // Prettier rules
     "prettier/prettier": 2,
     // Airbnb JS Rules
+    "prefer-const": 2,
+    "no-const-assign": 2,
     "no-var": 2,
     "no-new-object": 2,
     "object-shorthand": 2,
     "quote-props": 2,
+    "no-prototype-builtins": 2,
     "prefer-object-spread": 2,
     "no-array-constructor": 2,
+    "array-callback-return": 2,
     "prefer-destructuring": [
       "error",
       {
@@ -55,6 +59,7 @@
     "no-plusplus": 2,
     "eqeqeq": 2,
     "no-nested-ternary": 1,
+    "no-mixed-operators": 2,
     "no-restricted-globals": 2,
     // Airbnb React rules
     "react/prefer-es6-class": 1,
